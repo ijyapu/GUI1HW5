@@ -1,1 +1,176 @@
+/*
+ File: style.css
+ Assignment: Scrabble Game
+ Bikash Shrestha, UMass Lowell Computer Science, Bikash_Shrestha@student.uml.edu
+ Copyright (c) 2023 by Bikash Shrestha. All rights reserved. May be
+ freely copied or excerpted for educational purposes with credit to the
+ author.
+ Updated by BS on July 1,  2023, at 8:00 PM.
+ Instructor: Professor Wenjin Zhou
+ Help: w3 Schools/ Stack Overflow / jQuery / Google 
+ Basic Description: This is the fifth assignment where we use jQuery UI, HTML, and CSS to create a game of Scrabble. The assigngment mostly focues on the drag-and-drop method. 
+ Images are used from the folder that professor provided. 
+*/
 
+/* Background styles */
+body {
+  height: 100%;
+  background-color: beige;
+  font-family: "Times New Roman", Times, serif;
+  color: #F5F5F5;
+  margin-bottom: 96px;
+}
+
+/* Main styles */
+#main {
+  background-image: linear-gradient(to bottom right, beige, teal);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: auto;
+  margin-top: 0;
+  width: 900px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border: 1px #F0E68C solid;
+  border-top: none;
+}
+
+/* Button Section styles */
+#buttons {
+  text-align: center;
+  padding: 38px 0 38px 0;
+}
+
+/* Span styles */
+span {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Buttons sytles */
+button {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  width: 200px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: #EEE9D9;
+  border-color: #d0c295;
+}
+
+/* child of main container styles */
+#main > * {
+  margin: auto;
+}
+
+/* header styles */
+header {
+  padding: 32px 0 32px 0;
+}
+
+/* h1 heading styles */
+h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+/* Scoreboard section styles */
+#scoreboard {
+  height: 30px;
+  width: 574px;
+}
+
+/* Game board styles */
+#board {
+  width: 595px;
+  height: 92px;
+}
+
+/* Tile rack styles */
+#rack {
+  width: 640px;
+  height: 182px;
+  padding-top: 45px;
+  padding-left: 70px;
+  background-image: url('../images/scrabble-tile-holder-406774_640.png') ;
+  background-repeat: no-repeat;
+}
+
+/* centered image(logo) style */
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+box-shadow: 0 0 50px 50px skyblue inset;
+}
+
+/* slot elements styles */
+.slot {
+  position: relative;
+}
+
+/* placing blank tile in the rack */
+.board-blank {
+  background-image: url('../images/Board_Tiles/blank.png');
+}
+
+/* placing double-word tile in the rack */
+.board-double-word {
+  background-image: url('../images/Board_Tiles/double_word.png');
+}
+
+/* placing double-letter tile in the rack */
+.board-double-letter {
+  background-image: url('../images/Board_Tiles/double_letter.png');
+  background: fit;
+
+}
+
+/* dragable elements styles */
+.draggable {
+  width: 80px;
+  height: 88px;
+  float: left;
+  margin-right: 5px;
+  border-radius: 5px;
+  background-color: #5CB85C;
+  z-index: 1;
+}
+
+/* dropable elements tyles */
+.droppable {
+  width: 81px;
+  height: 88px;
+  float: left;
+  margin: 0;
+  margin-right: 2px;
+  position: relative;
+  top: 2px;
+  border: 1px black solid;
+}
+
+/* drop hover effect styles */
+.drop-hover {
+  box-shadow: 0 0 5px 5px #F0E68C;
+  z-index: 1;
+  transition: box-shadow 0.2s;
+}
+
+/* hovering effect styles */
+.hovering {
+  z-index: 100;
+  box-shadow: 5px 5px 5px 0px black;
+  transition: box-shadow 0.2s;
+}
+
+/* scoreboard elements styles */
+#scoreboard > div, #scoreboard > div > div {
+  display: inline-block;
+  width: 150px;
+}
+
+/* links styles */
+a {
+  color: #F0E68C ;
+}
