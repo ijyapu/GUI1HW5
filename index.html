@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+ File: Index.html
+ Assignment: Scrabble Game
+ Bikash Shrestha, UMass Lowell Computer Science, Bikash_Shrestha@student.uml.edu
+ Copyright (c) 2023 by Bikash Shrestha. All rights reserved. May be
+ freely copied or excerpted for educational purposes with credit to the
+ author.
+ Updated by BS on July 1,  2023, at 8:00 PM.
+ Instructor: Professor Wenjin Zhou
+ Help: w3 Schools/ Stack Overflow / jQuery / Google 
+ Basic Description: This is the fifth assignment where we use jQuery UI, HTML, and CSS to create a game of Scrabble. The assigngment mostly focues on the drag-and-drop method. 
+-->
+
+<html>
+<head>
+    <title>Scrabble Game</title>
+    <!-- CSS stylesheets -->
+    <link rel="stylesheet" href="../../fonts/font_styles.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div id="main">
+        <header>
+            <!-- Scrabble logo downloaded from : https://1000logos.net/wp-content/uploads/2021/04/Scrabble-Logo-2022.png-->
+          <img src = "images/Scrabble-Logo.png" alt="Scrabble" class="center" id="logo">  
+        </header>
+        <div id="scoreboard">
+            <!-- Placeholder for the current word being formed -->
+            <div>
+                <div class="label">Word: <span id="word"></span></div>
+            </div>
+            <!-- Placeholder for the total score and current score -->
+            <div>
+                <div class="label">Score: <span id="total-score">0</span>(+<span id="cur-score"></span>)</div>
+            </div>
+            <!-- Placeholder for the number of remaining tiles -->
+            <div>
+                <div class="label">Remaining tiles: <span id="bag"></span></div>
+            </div>
+        </div>
+        <!-- Placeholder for the Scrabble board -->
+        <div id="board"></div>
+
+        <!-- Next Word and reset Buttons-->
+        <div id="buttons">
+            <button id="next-word" style="margin-right: 2em" disabled="disabled">Next Word</button>
+            <button id="reset">Reset</button>
+        </div>
+        <div id="rack"></div>
+    </div>
+    <!-- jQuery links -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
