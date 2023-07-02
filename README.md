@@ -4,7 +4,7 @@ GitHub URL where the application resides: https://ijyapu.github.io/GUI1HW5/
 
 GitHub Repository: https://github.com/ijyapu/GUI1HW5
 
-  The Scrabble Game is the fifth assignment for the GUI-I class. In this assignment, I applied the knowledge of jQuery UI including HTML and CSS.  My task is to implement a part of the Scrabble game using drag-and-drop functionality. The game will display one line of the Scrabble board, along with a tile rack containing seven letter tiles, to the user. The user will then be able to drag and drop tiles onto the board to create words. My responsibility also includes calculating and reporting the score, taking into account the values assigned to each letter and the bonus squares. 
+The Scrabble Game is the fifth assignment for the GUI-I class. In this assignment, I applied the knowledge of jQuery UI including HTML and CSS.  My task is to implement a part of the Scrabble game using drag-and-drop functionality. The game will display one line of the Scrabble board, along with a tile rack containing seven letter tiles, to the user. The user will then be able to drag and drop tiles onto the board to create words. My responsibility also includes calculating and reporting the score, taking into account the values assigned to each letter and the bonus squares. 
 
 What can a user expect in this game:
 
@@ -16,6 +16,6 @@ What can a user expect in this game:
 6. Score Display: Above the Scrabble board, the game provides a score tracker that informs the user about the word they are currently forming, the current score, and the number of remaining tiles in their possession as well as the scores that they have accumulated so far. 
 7. Word Selection Display: There are seven dots positioned above the Scrabble board. These dots serve as visual indicators, representing the selected and placed words on the board.
 
-Please note that this game heavily relies on the assignment instruction rather than the real-life game. This game also missed one requirement given in the rubric which is that players are able to drag the words with space in between. Instead, of bouncing the tile back to the rack, it keeps it there. Other than that, everything is working well. 
+I want to highlight that this game largely follows the instructions given in the assignment, prioritizing the designated functionalities over replicating the complete set of features found in the real-life version of the game. Moreover, one specific requirement is mentioned in the rubric. Users are currently able to place letters with spaces in between, contrary to the stipulated rule. In other words, they have the freedom to position their letters wherever they wish, including adding spaces between them. Apart from this deviation, the game operates smoothly and effectively in all other aspects. 
 
 # These are some of the features that the user can enjoy.
