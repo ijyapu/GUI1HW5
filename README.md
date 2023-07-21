@@ -1,8 +1,8 @@
 # WELCOME TO THE SCRABBLE GAME (HW5)
 
-GitHub URL where the application resides: https://ijyapu.github.io/GUI1HW5/
+GitHub URL where the application resides: https://ijyapu.github.io/Scrabble-Game/
 
-GitHub Repository: https://github.com/ijyapu/GUI1HW5
+GitHub Repository: https://github.com/ijyapu/Scrabble-Game
 
 The Scrabble Game is the fifth assignment for the GUI-I class. In this assignment, I applied the knowledge of jQuery UI including HTML and CSS.  My task is to implement a part of the Scrabble game using drag-and-drop functionality. The game will display one line of the Scrabble board, along with a tile rack containing seven letter tiles, to the user. The user will then be able to drag and drop tiles onto the board to create words. My responsibility also includes calculating and reporting the score, taking into account the values assigned to each letter and the bonus squares. 
 
